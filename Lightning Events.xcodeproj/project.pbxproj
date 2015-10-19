@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEAFCFD51BD5B8C900689A7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFCFD41BD5B8C900689A7E /* AppDelegate.swift */; };
+		CEAFCFD71BD5B8C900689A7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFCFD61BD5B8C900689A7E /* ViewController.swift */; };
+		CEAFCFDA1BD5B8C900689A7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAFCFD81BD5B8C900689A7E /* Main.storyboard */; };
+		CEAFCFDC1BD5B8C900689A7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAFCFDB1BD5B8C900689A7E /* Assets.xcassets */; };
+		CEAFCFDF1BD5B8C900689A7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAFCFDD1BD5B8C900689A7E /* LaunchScreen.storyboard */; };
+		CEAFCFEA1BD5B8CA00689A7E /* Lightning_EventsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFCFE91BD5B8CA00689A7E /* Lightning_EventsTests.swift */; };
+		CEAFCFF51BD5B8CA00689A7E /* Lightning_EventsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFCFF41BD5B8CA00689A7E /* Lightning_EventsUITests.swift */; };
+		CEAFCFFA1BD5B8CA00689A7E /* Lightning Events WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CEAFCFF91BD5B8CA00689A7E /* Lightning Events WatchKit App.app */; };
+		CEAFD0001BD5B8CA00689A7E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAFCFFE1BD5B8CA00689A7E /* Interface.storyboard */; };
+		CEAFD0021BD5B8CA00689A7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAFD0011BD5B8CA00689A7E /* Assets.xcassets */; };
+		CEAFD0091BD5B8CA00689A7E /* Lightning Events WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CEAFD0081BD5B8CA00689A7E /* Lightning Events WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CEAFD0101BD5B8CA00689A7E /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFD00F1BD5B8CA00689A7E /* InterfaceController.swift */; };
+		CEAFD0121BD5B8CA00689A7E /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFD0111BD5B8CA00689A7E /* ExtensionDelegate.swift */; };
+		CEAFD0141BD5B8CA00689A7E /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFD0131BD5B8CA00689A7E /* NotificationController.swift */; };
+		CEAFD0161BD5B8CA00689A7E /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFD0151BD5B8CA00689A7E /* GlanceController.swift */; };
+		CEAFD0181BD5B8CA00689A7E /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFD0171BD5B8CA00689A7E /* ComplicationController.swift */; };
+		CEAFD01A1BD5B8CA00689A7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAFD0191BD5B8CA00689A7E /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEAFCFE61BD5B8CA00689A7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEAFCFC91BD5B8C900689A7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEAFCFD01BD5B8C900689A7E;
+			remoteInfo = "Lightning Events";
+		};
+		CEAFCFF11BD5B8CA00689A7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEAFCFC91BD5B8C900689A7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEAFCFD01BD5B8C900689A7E;
+			remoteInfo = "Lightning Events";
+		};
+		CEAFCFFB1BD5B8CA00689A7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEAFCFC91BD5B8C900689A7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEAFCFF81BD5B8CA00689A7E;
+			remoteInfo = "Lightning Events WatchKit App";
+		};
+		CEAFD00A1BD5B8CA00689A7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEAFCFC91BD5B8C900689A7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEAFD0071BD5B8CA00689A7E;
+			remoteInfo = "Lightning Events WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CEAFD0211BD5B8CA00689A7E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CEAFD0091BD5B8CA00689A7E /* Lightning Events WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAFD0251BD5B8CA00689A7E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				CEAFCFFA1BD5B8CA00689A7E /* Lightning Events WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CEAFCFD11BD5B8C900689A7E /* Lightning Events.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lightning Events.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEAFCFD41BD5B8C900689A7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEAFCFD61BD5B8C900689A7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEAFCFD91BD5B8C900689A7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEAFCFDB1BD5B8C900689A7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEAFCFDE1BD5B8C900689A7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEAFCFE01BD5B8C900689A7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEAFCFE51BD5B8CA00689A7E /* Lightning EventsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lightning EventsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEAFCFE91BD5B8CA00689A7E /* Lightning_EventsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lightning_EventsTests.swift; sourceTree = "<group>"; };
+		CEAFCFEB1BD5B8CA00689A7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEAFCFF01BD5B8CA00689A7E /* Lightning EventsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lightning EventsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEAFCFF41BD5B8CA00689A7E /* Lightning_EventsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lightning_EventsUITests.swift; sourceTree = "<group>"; };
+		CEAFCFF61BD5B8CA00689A7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEAFCFF91BD5B8CA00689A7E /* Lightning Events WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lightning Events WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEAFCFFF1BD5B8CA00689A7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		CEAFD0011BD5B8CA00689A7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEAFD0031BD5B8CA00689A7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEAFD0081BD5B8CA00689A7E /* Lightning Events WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Lightning Events WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEAFD00E1BD5B8CA00689A7E /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		CEAFD00F1BD5B8CA00689A7E /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		CEAFD0111BD5B8CA00689A7E /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		CEAFD0131BD5B8CA00689A7E /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		CEAFD0151BD5B8CA00689A7E /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		CEAFD0171BD5B8CA00689A7E /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		CEAFD0191BD5B8CA00689A7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEAFD01B1BD5B8CA00689A7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEAFCFCE1BD5B8C900689A7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAFCFE21BD5B8CA00689A7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAFCFED1BD5B8CA00689A7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAFD0051BD5B8CA00689A7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEAFCFC81BD5B8C900689A7E = {
+			isa = PBXGroup;
+			children = (
+				CEAFCFD31BD5B8C900689A7E /* Lightning Events */,
+				CEAFCFE81BD5B8CA00689A7E /* Lightning EventsTests */,
+				CEAFCFF31BD5B8CA00689A7E /* Lightning EventsUITests */,
+				CEAFCFFD1BD5B8CA00689A7E /* Lightning Events WatchKit App */,
+				CEAFD00C1BD5B8CA00689A7E /* Lightning Events WatchKit Extension */,
+				CEAFCFD21BD5B8C900689A7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEAFCFD21BD5B8C900689A7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEAFCFD11BD5B8C900689A7E /* Lightning Events.app */,
+				CEAFCFE51BD5B8CA00689A7E /* Lightning EventsTests.xctest */,
+				CEAFCFF01BD5B8CA00689A7E /* Lightning EventsUITests.xctest */,
+				CEAFCFF91BD5B8CA00689A7E /* Lightning Events WatchKit App.app */,
+				CEAFD0081BD5B8CA00689A7E /* Lightning Events WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEAFCFD31BD5B8C900689A7E /* Lightning Events */ = {
+			isa = PBXGroup;
+			children = (
+				CEAFCFD41BD5B8C900689A7E /* AppDelegate.swift */,
+				CEAFCFD61BD5B8C900689A7E /* ViewController.swift */,
+				CEAFCFD81BD5B8C900689A7E /* Main.storyboard */,
+				CEAFCFDB1BD5B8C900689A7E /* Assets.xcassets */,
+				CEAFCFDD1BD5B8C900689A7E /* LaunchScreen.storyboard */,
+				CEAFCFE01BD5B8C900689A7E /* Info.plist */,
+			);
+			path = "Lightning Events";
+			sourceTree = "<group>";
+		};
+		CEAFCFE81BD5B8CA00689A7E /* Lightning EventsTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEAFCFE91BD5B8CA00689A7E /* Lightning_EventsTests.swift */,
+				CEAFCFEB1BD5B8CA00689A7E /* Info.plist */,
+			);
+			path = "Lightning EventsTests";
+			sourceTree = "<group>";
+		};
+		CEAFCFF31BD5B8CA00689A7E /* Lightning EventsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEAFCFF41BD5B8CA00689A7E /* Lightning_EventsUITests.swift */,
+				CEAFCFF61BD5B8CA00689A7E /* Info.plist */,
+			);
+			path = "Lightning EventsUITests";
+			sourceTree = "<group>";
+		};
+		CEAFCFFD1BD5B8CA00689A7E /* Lightning Events WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				CEAFCFFE1BD5B8CA00689A7E /* Interface.storyboard */,
+				CEAFD0011BD5B8CA00689A7E /* Assets.xcassets */,
+				CEAFD0031BD5B8CA00689A7E /* Info.plist */,
+			);
+			path = "Lightning Events WatchKit App";
+			sourceTree = "<group>";
+		};
+		CEAFD00C1BD5B8CA00689A7E /* Lightning Events WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CEAFD00F1BD5B8CA00689A7E /* InterfaceController.swift */,
+				CEAFD0111BD5B8CA00689A7E /* ExtensionDelegate.swift */,
+				CEAFD0131BD5B8CA00689A7E /* NotificationController.swift */,
+				CEAFD0151BD5B8CA00689A7E /* GlanceController.swift */,
+				CEAFD0171BD5B8CA00689A7E /* ComplicationController.swift */,
+				CEAFD0191BD5B8CA00689A7E /* Assets.xcassets */,
+				CEAFD01B1BD5B8CA00689A7E /* Info.plist */,
+				CEAFD00D1BD5B8CA00689A7E /* Supporting Files */,
+			);
+			path = "Lightning Events WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		CEAFD00D1BD5B8CA00689A7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEAFD00E1BD5B8CA00689A7E /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEAFCFD01BD5B8C900689A7E /* Lightning Events */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEAFD0261BD5B8CA00689A7E /* Build configuration list for PBXNativeTarget "Lightning Events" */;
+			buildPhases = (
+				CEAFCFCD1BD5B8C900689A7E /* Sources */,
+				CEAFCFCE1BD5B8C900689A7E /* Frameworks */,
+				CEAFCFCF1BD5B8C900689A7E /* Resources */,
+				CEAFD0251BD5B8CA00689A7E /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEAFCFFC1BD5B8CA00689A7E /* PBXTargetDependency */,
+			);
+			name = "Lightning Events";
+			productName = "Lightning Events";
+			productReference = CEAFCFD11BD5B8C900689A7E /* Lightning Events.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEAFCFE41BD5B8CA00689A7E /* Lightning EventsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEAFD0291BD5B8CA00689A7E /* Build configuration list for PBXNativeTarget "Lightning EventsTests" */;
+			buildPhases = (
+				CEAFCFE11BD5B8CA00689A7E /* Sources */,
+				CEAFCFE21BD5B8CA00689A7E /* Frameworks */,
+				CEAFCFE31BD5B8CA00689A7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEAFCFE71BD5B8CA00689A7E /* PBXTargetDependency */,
+			);
+			name = "Lightning EventsTests";
+			productName = "Lightning EventsTests";
+			productReference = CEAFCFE51BD5B8CA00689A7E /* Lightning EventsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEAFCFEF1BD5B8CA00689A7E /* Lightning EventsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEAFD02C1BD5B8CA00689A7E /* Build configuration list for PBXNativeTarget "Lightning EventsUITests" */;
+			buildPhases = (
+				CEAFCFEC1BD5B8CA00689A7E /* Sources */,
+				CEAFCFED1BD5B8CA00689A7E /* Frameworks */,
+				CEAFCFEE1BD5B8CA00689A7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEAFCFF21BD5B8CA00689A7E /* PBXTargetDependency */,
+			);
+			name = "Lightning EventsUITests";
+			productName = "Lightning EventsUITests";
+			productReference = CEAFCFF01BD5B8CA00689A7E /* Lightning EventsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		CEAFCFF81BD5B8CA00689A7E /* Lightning Events WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEAFD0221BD5B8CA00689A7E /* Build configuration list for PBXNativeTarget "Lightning Events WatchKit App" */;
+			buildPhases = (
+				CEAFCFF71BD5B8CA00689A7E /* Resources */,
+				CEAFD0211BD5B8CA00689A7E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEAFD00B1BD5B8CA00689A7E /* PBXTargetDependency */,
+			);
+			name = "Lightning Events WatchKit App";
+			productName = "Lightning Events WatchKit App";
+			productReference = CEAFCFF91BD5B8CA00689A7E /* Lightning Events WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		CEAFD0071BD5B8CA00689A7E /* Lightning Events WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEAFD01E1BD5B8CA00689A7E /* Build configuration list for PBXNativeTarget "Lightning Events WatchKit Extension" */;
+			buildPhases = (
+				CEAFD0041BD5B8CA00689A7E /* Sources */,
+				CEAFD0051BD5B8CA00689A7E /* Frameworks */,
+				CEAFD0061BD5B8CA00689A7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lightning Events WatchKit Extension";
+			productName = "Lightning Events WatchKit Extension";
+			productReference = CEAFD0081BD5B8CA00689A7E /* Lightning Events WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEAFCFC91BD5B8C900689A7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Skip Sauls";
+				TargetAttributes = {
+					CEAFCFD01BD5B8C900689A7E = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					CEAFCFE41BD5B8CA00689A7E = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = CEAFCFD01BD5B8C900689A7E;
+					};
+					CEAFCFEF1BD5B8CA00689A7E = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = CEAFCFD01BD5B8C900689A7E;
+					};
+					CEAFCFF81BD5B8CA00689A7E = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					CEAFD0071BD5B8CA00689A7E = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = CEAFCFCC1BD5B8C900689A7E /* Build configuration list for PBXProject "Lightning Events" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEAFCFC81BD5B8C900689A7E;
+			productRefGroup = CEAFCFD21BD5B8C900689A7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEAFCFD01BD5B8C900689A7E /* Lightning Events */,
+				CEAFCFE41BD5B8CA00689A7E /* Lightning EventsTests */,
+				CEAFCFEF1BD5B8CA00689A7E /* Lightning EventsUITests */,
+				CEAFCFF81BD5B8CA00689A7E /* Lightning Events WatchKit App */,
+				CEAFD0071BD5B8CA00689A7E /* Lightning Events WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEAFCFCF1BD5B8C900689A7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAFCFDF1BD5B8C900689A7E /* LaunchScreen.storyboard in Resources */,
+				CEAFCFDC1BD5B8C900689A7E /* Assets.xcassets in Resources */,
+				CEAFCFDA1BD5B8C900689A7E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAFCFE31BD5B8CA00689A7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAFCFEE1BD5B8CA00689A7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAFCFF71BD5B8CA00689A7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAFD0021BD5B8CA00689A7E /* Assets.xcassets in Resources */,
+				CEAFD0001BD5B8CA00689A7E /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAFD0061BD5B8CA00689A7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAFD01A1BD5B8CA00689A7E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEAFCFCD1BD5B8C900689A7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAFCFD71BD5B8C900689A7E /* ViewController.swift in Sources */,
+				CEAFCFD51BD5B8C900689A7E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAFCFE11BD5B8CA00689A7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAFCFEA1BD5B8CA00689A7E /* Lightning_EventsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAFCFEC1BD5B8CA00689A7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAFCFF51BD5B8CA00689A7E /* Lightning_EventsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAFD0041BD5B8CA00689A7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAFD0141BD5B8CA00689A7E /* NotificationController.swift in Sources */,
+				CEAFD0121BD5B8CA00689A7E /* ExtensionDelegate.swift in Sources */,
+				CEAFD0181BD5B8CA00689A7E /* ComplicationController.swift in Sources */,
+				CEAFD0101BD5B8CA00689A7E /* InterfaceController.swift in Sources */,
+				CEAFD0161BD5B8CA00689A7E /* GlanceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEAFCFE71BD5B8CA00689A7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEAFCFD01BD5B8C900689A7E /* Lightning Events */;
+			targetProxy = CEAFCFE61BD5B8CA00689A7E /* PBXContainerItemProxy */;
+		};
+		CEAFCFF21BD5B8CA00689A7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEAFCFD01BD5B8C900689A7E /* Lightning Events */;
+			targetProxy = CEAFCFF11BD5B8CA00689A7E /* PBXContainerItemProxy */;
+		};
+		CEAFCFFC1BD5B8CA00689A7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEAFCFF81BD5B8CA00689A7E /* Lightning Events WatchKit App */;
+			targetProxy = CEAFCFFB1BD5B8CA00689A7E /* PBXContainerItemProxy */;
+		};
+		CEAFD00B1BD5B8CA00689A7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEAFD0071BD5B8CA00689A7E /* Lightning Events WatchKit Extension */;
+			targetProxy = CEAFD00A1BD5B8CA00689A7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEAFCFD81BD5B8C900689A7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEAFCFD91BD5B8C900689A7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEAFCFDD1BD5B8C900689A7E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEAFCFDE1BD5B8C900689A7E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CEAFCFFE1BD5B8CA00689A7E /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEAFCFFF1BD5B8CA00689A7E /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEAFD01C1BD5B8CA00689A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEAFD01D1BD5B8CA00689A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEAFD01F1BD5B8CA00689A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "Lightning Events WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "blitztakt.Lightning-Events.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		CEAFD0201BD5B8CA00689A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "Lightning Events WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "blitztakt.Lightning-Events.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		CEAFD0231BD5B8CA00689A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Lightning_Events_WatchKit_Extension;
+				INFOPLIST_FILE = "Lightning Events WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "blitztakt.Lightning-Events.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		CEAFD0241BD5B8CA00689A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Lightning_Events_WatchKit_Extension;
+				INFOPLIST_FILE = "Lightning Events WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "blitztakt.Lightning-Events.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		CEAFD0271BD5B8CA00689A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Lightning Events/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "blitztakt.Lightning-Events";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEAFD0281BD5B8CA00689A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Lightning Events/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "blitztakt.Lightning-Events";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CEAFD02A1BD5B8CA00689A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Lightning EventsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "blitztakt.Lightning-EventsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lightning Events.app/Lightning Events";
+			};
+			name = Debug;
+		};
+		CEAFD02B1BD5B8CA00689A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Lightning EventsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "blitztakt.Lightning-EventsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lightning Events.app/Lightning Events";
+			};
+			name = Release;
+		};
+		CEAFD02D1BD5B8CA00689A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Lightning EventsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "blitztakt.Lightning-EventsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Lightning Events";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CEAFD02E1BD5B8CA00689A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Lightning EventsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "blitztakt.Lightning-EventsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Lightning Events";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEAFCFCC1BD5B8C900689A7E /* Build configuration list for PBXProject "Lightning Events" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEAFD01C1BD5B8CA00689A7E /* Debug */,
+				CEAFD01D1BD5B8CA00689A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEAFD01E1BD5B8CA00689A7E /* Build configuration list for PBXNativeTarget "Lightning Events WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEAFD01F1BD5B8CA00689A7E /* Debug */,
+				CEAFD0201BD5B8CA00689A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEAFD0221BD5B8CA00689A7E /* Build configuration list for PBXNativeTarget "Lightning Events WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEAFD0231BD5B8CA00689A7E /* Debug */,
+				CEAFD0241BD5B8CA00689A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEAFD0261BD5B8CA00689A7E /* Build configuration list for PBXNativeTarget "Lightning Events" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEAFD0271BD5B8CA00689A7E /* Debug */,
+				CEAFD0281BD5B8CA00689A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEAFD0291BD5B8CA00689A7E /* Build configuration list for PBXNativeTarget "Lightning EventsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEAFD02A1BD5B8CA00689A7E /* Debug */,
+				CEAFD02B1BD5B8CA00689A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEAFD02C1BD5B8CA00689A7E /* Build configuration list for PBXNativeTarget "Lightning EventsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEAFD02D1BD5B8CA00689A7E /* Debug */,
+				CEAFD02E1BD5B8CA00689A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEAFCFC91BD5B8C900689A7E /* Project object */;
+}
