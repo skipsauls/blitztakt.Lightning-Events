@@ -13,11 +13,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         return true
     }
+
 
     func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -41,6 +41,27 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+    func application(application: UIApplication, willContinueUserActivityWithType userActivityType: String) -> Bool {
+        if (userActivityType == Shared.sharedUserActivityType) {
+            return true
+        }
+        return false
+    }
+    
+    func application(application: UIApplication, continueUserActivity userActivity: NSUserActivity, restorationHandler: ([AnyObject]?) -> Void) -> Bool {
+        if (userActivity.activityType == Shared.sharedUserActivityType) {
+            if let userInfo = userActivity.userInfo as? [String : AnyObject] {
+                if let identifier = userInfo[Shared.sharedIdentifierKey] as? Int {
+                    //Do something
+                    let alert = UIAlertView(title: "Handoff", message: "Handoff has been triggered for identifier \(identifier)" , delegate: nil, cancelButtonTitle: "Thanks for the info!")
+                    alert.show()
+                    return true
+                }
+            }
+        }
+        return false
+    }
+    
 
 }
 

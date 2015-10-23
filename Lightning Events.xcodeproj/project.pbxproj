@@ -15,7 +15,6 @@
 		CEAFCFEA1BD5B8CA00689A7E /* Lightning_EventsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFCFE91BD5B8CA00689A7E /* Lightning_EventsTests.swift */; };
 		CEAFCFF51BD5B8CA00689A7E /* Lightning_EventsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFCFF41BD5B8CA00689A7E /* Lightning_EventsUITests.swift */; };
 		CEAFCFFA1BD5B8CA00689A7E /* Lightning Events WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CEAFCFF91BD5B8CA00689A7E /* Lightning Events WatchKit App.app */; };
-		CEAFD0001BD5B8CA00689A7E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAFCFFE1BD5B8CA00689A7E /* Interface.storyboard */; };
 		CEAFD0021BD5B8CA00689A7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAFD0011BD5B8CA00689A7E /* Assets.xcassets */; };
 		CEAFD0091BD5B8CA00689A7E /* Lightning Events WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CEAFD0081BD5B8CA00689A7E /* Lightning Events WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		CEAFD0101BD5B8CA00689A7E /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFD00F1BD5B8CA00689A7E /* InterfaceController.swift */; };
@@ -24,6 +23,51 @@
 		CEAFD0161BD5B8CA00689A7E /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFD0151BD5B8CA00689A7E /* GlanceController.swift */; };
 		CEAFD0181BD5B8CA00689A7E /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFD0171BD5B8CA00689A7E /* ComplicationController.swift */; };
 		CEAFD01A1BD5B8CA00689A7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAFD0191BD5B8CA00689A7E /* Assets.xcassets */; };
+		CEAFD0301BD5BBD000689A7E /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFD02F1BD5BBD000689A7E /* SwiftyJSON.swift */; settings = {ASSET_TAGS = (); }; };
+		CEAFD0311BD5BBD000689A7E /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFD02F1BD5BBD000689A7E /* SwiftyJSON.swift */; settings = {ASSET_TAGS = (); }; };
+		CEAFD0321BD5BBD000689A7E /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFD02F1BD5BBD000689A7E /* SwiftyJSON.swift */; settings = {ASSET_TAGS = (); }; };
+		CEAFD0331BD5BBD000689A7E /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFD02F1BD5BBD000689A7E /* SwiftyJSON.swift */; settings = {ASSET_TAGS = (); }; };
+		CEAFD0351BD5BC3900689A7E /* LtngEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFD0341BD5BC3900689A7E /* LtngEvent.swift */; settings = {ASSET_TAGS = (); }; };
+		CEAFD0361BD5BC3900689A7E /* LtngEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFD0341BD5BC3900689A7E /* LtngEvent.swift */; settings = {ASSET_TAGS = (); }; };
+		CEAFD0371BD5BC3900689A7E /* LtngEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFD0341BD5BC3900689A7E /* LtngEvent.swift */; settings = {ASSET_TAGS = (); }; };
+		CEAFD0381BD5BC3900689A7E /* LtngEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFD0341BD5BC3900689A7E /* LtngEvent.swift */; settings = {ASSET_TAGS = (); }; };
+		CEAFD03A1BD5BC7A00689A7E /* SObjectUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFD0391BD5BC7A00689A7E /* SObjectUtils.swift */; settings = {ASSET_TAGS = (); }; };
+		CEAFD03B1BD5BC7A00689A7E /* SObjectUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFD0391BD5BC7A00689A7E /* SObjectUtils.swift */; settings = {ASSET_TAGS = (); }; };
+		CEAFD03C1BD5BC7A00689A7E /* SObjectUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFD0391BD5BC7A00689A7E /* SObjectUtils.swift */; settings = {ASSET_TAGS = (); }; };
+		CEAFD03D1BD5BC7A00689A7E /* SObjectUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFD0391BD5BC7A00689A7E /* SObjectUtils.swift */; settings = {ASSET_TAGS = (); }; };
+		CEAFD03F1BD5E78700689A7E /* blitztakt.js in Resources */ = {isa = PBXBuildFile; fileRef = CEAFD03E1BD5E78700689A7E /* blitztakt.js */; settings = {ASSET_TAGS = (); }; };
+		CEAFD0401BD5E78700689A7E /* blitztakt.js in Resources */ = {isa = PBXBuildFile; fileRef = CEAFD03E1BD5E78700689A7E /* blitztakt.js */; settings = {ASSET_TAGS = (); }; };
+		CEAFD0411BD5E78700689A7E /* blitztakt.js in Resources */ = {isa = PBXBuildFile; fileRef = CEAFD03E1BD5E78700689A7E /* blitztakt.js */; settings = {ASSET_TAGS = (); }; };
+		CEAFD0421BD5E78700689A7E /* blitztakt.js in Resources */ = {isa = PBXBuildFile; fileRef = CEAFD03E1BD5E78700689A7E /* blitztakt.js */; settings = {ASSET_TAGS = (); }; };
+		CEAFD0431BD5E78700689A7E /* blitztakt.js in Resources */ = {isa = PBXBuildFile; fileRef = CEAFD03E1BD5E78700689A7E /* blitztakt.js */; settings = {ASSET_TAGS = (); }; };
+		CEAFD0461BD6842000689A7E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAFD0451BD6842000689A7E /* Images.xcassets */; settings = {ASSET_TAGS = (); }; };
+		CEAFD0471BD6842000689A7E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAFD0451BD6842000689A7E /* Images.xcassets */; settings = {ASSET_TAGS = (); }; };
+		CEAFD0481BD6842000689A7E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAFD0451BD6842000689A7E /* Images.xcassets */; settings = {ASSET_TAGS = (); }; };
+		CEAFD0491BD6842000689A7E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAFD0451BD6842000689A7E /* Images.xcassets */; settings = {ASSET_TAGS = (); }; };
+		CEAFD04A1BD6842000689A7E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAFD0451BD6842000689A7E /* Images.xcassets */; settings = {ASSET_TAGS = (); }; };
+		CEAFD04C1BD7403600689A7E /* RecordSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFD04B1BD7403600689A7E /* RecordSummary.swift */; settings = {ASSET_TAGS = (); }; };
+		CEAFD04D1BD7403600689A7E /* RecordSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFD04B1BD7403600689A7E /* RecordSummary.swift */; settings = {ASSET_TAGS = (); }; };
+		CEAFD04E1BD7403600689A7E /* RecordSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFD04B1BD7403600689A7E /* RecordSummary.swift */; settings = {ASSET_TAGS = (); }; };
+		CEAFD04F1BD7403600689A7E /* RecordSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFD04B1BD7403600689A7E /* RecordSummary.swift */; settings = {ASSET_TAGS = (); }; };
+		CEAFD0511BD838C600689A7E /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFD0501BD838C600689A7E /* Shared.swift */; settings = {ASSET_TAGS = (); }; };
+		CEAFD0521BD838C600689A7E /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFD0501BD838C600689A7E /* Shared.swift */; settings = {ASSET_TAGS = (); }; };
+		CEAFD0531BD838C600689A7E /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFD0501BD838C600689A7E /* Shared.swift */; settings = {ASSET_TAGS = (); }; };
+		CEAFD0541BD838C600689A7E /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFD0501BD838C600689A7E /* Shared.swift */; settings = {ASSET_TAGS = (); }; };
+		CEAFD0591BD84EE000689A7E /* MenuInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFD0551BD84EE000689A7E /* MenuInterfaceController.swift */; settings = {ASSET_TAGS = (); }; };
+		CEAFD05B1BD85E7D00689A7E /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAFD05A1BD85E7D00689A7E /* Media.xcassets */; settings = {ASSET_TAGS = (); }; };
+		CEAFD05C1BD85E7D00689A7E /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAFD05A1BD85E7D00689A7E /* Media.xcassets */; settings = {ASSET_TAGS = (); }; };
+		CEAFD05D1BD85E7D00689A7E /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAFD05A1BD85E7D00689A7E /* Media.xcassets */; settings = {ASSET_TAGS = (); }; };
+		CEAFD05E1BD85E7D00689A7E /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAFD05A1BD85E7D00689A7E /* Media.xcassets */; settings = {ASSET_TAGS = (); }; };
+		CEAFD05F1BD85E7D00689A7E /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAFD05A1BD85E7D00689A7E /* Media.xcassets */; settings = {ASSET_TAGS = (); }; };
+		CEAFD0611BD8611800689A7E /* WatchEventUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFD0601BD8611800689A7E /* WatchEventUtil.swift */; settings = {ASSET_TAGS = (); }; };
+		CEAFD0621BD88AF400689A7E /* WatchEventUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFD0601BD8611800689A7E /* WatchEventUtil.swift */; settings = {ASSET_TAGS = (); }; };
+		CEAFD0631BD88AF500689A7E /* WatchEventUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFD0601BD8611800689A7E /* WatchEventUtil.swift */; settings = {ASSET_TAGS = (); }; };
+		CEAFD0641BD88AF500689A7E /* WatchEventUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFD0601BD8611800689A7E /* WatchEventUtil.swift */; settings = {ASSET_TAGS = (); }; };
+		CEEBAD841BD93552009F71C1 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAFCFFE1BD5B8CA00689A7E /* Interface.storyboard */; settings = {ASSET_TAGS = (); }; };
+		CEEBAD861BD936E7009F71C1 /* MenuRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEBAD7E1BD8BC2A009F71C1 /* MenuRowView.swift */; settings = {ASSET_TAGS = (); }; };
+		CEEBAD881BD93B61009F71C1 /* MenuTableRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEBAD871BD93B61009F71C1 /* MenuTableRowController.swift */; settings = {ASSET_TAGS = (); }; };
+		CEEBAD8A1BDA1CE1009F71C1 /* MessageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEBAD891BDA1CE1009F71C1 /* MessageHandler.swift */; settings = {ASSET_TAGS = (); }; };
+		CEEBAD8C1BDA205B009F71C1 /* NotificationsInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEBAD8B1BDA205B009F71C1 /* NotificationsInterfaceController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +153,20 @@
 		CEAFD0171BD5B8CA00689A7E /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		CEAFD0191BD5B8CA00689A7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEAFD01B1BD5B8CA00689A7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEAFD02F1BD5BBD000689A7E /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		CEAFD0341BD5BC3900689A7E /* LtngEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LtngEvent.swift; sourceTree = "<group>"; };
+		CEAFD0391BD5BC7A00689A7E /* SObjectUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SObjectUtils.swift; sourceTree = "<group>"; };
+		CEAFD03E1BD5E78700689A7E /* blitztakt.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = blitztakt.js; sourceTree = "<group>"; };
+		CEAFD0451BD6842000689A7E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CEAFD04B1BD7403600689A7E /* RecordSummary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordSummary.swift; sourceTree = "<group>"; };
+		CEAFD0501BD838C600689A7E /* Shared.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shared.swift; sourceTree = "<group>"; };
+		CEAFD0551BD84EE000689A7E /* MenuInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuInterfaceController.swift; sourceTree = "<group>"; };
+		CEAFD05A1BD85E7D00689A7E /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		CEAFD0601BD8611800689A7E /* WatchEventUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchEventUtil.swift; sourceTree = "<group>"; };
+		CEEBAD7E1BD8BC2A009F71C1 /* MenuRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuRowView.swift; sourceTree = "<group>"; };
+		CEEBAD871BD93B61009F71C1 /* MenuTableRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableRowController.swift; sourceTree = "<group>"; };
+		CEEBAD891BDA1CE1009F71C1 /* MessageHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageHandler.swift; sourceTree = "<group>"; };
+		CEEBAD8B1BDA205B009F71C1 /* NotificationsInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsInterfaceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,12 +228,19 @@
 		CEAFCFD31BD5B8C900689A7E /* Lightning Events */ = {
 			isa = PBXGroup;
 			children = (
+				CEAFD0391BD5BC7A00689A7E /* SObjectUtils.swift */,
+				CEAFD0341BD5BC3900689A7E /* LtngEvent.swift */,
+				CEAFD02F1BD5BBD000689A7E /* SwiftyJSON.swift */,
 				CEAFCFD41BD5B8C900689A7E /* AppDelegate.swift */,
 				CEAFCFD61BD5B8C900689A7E /* ViewController.swift */,
+				CEAFD03E1BD5E78700689A7E /* blitztakt.js */,
 				CEAFCFD81BD5B8C900689A7E /* Main.storyboard */,
 				CEAFCFDB1BD5B8C900689A7E /* Assets.xcassets */,
 				CEAFCFDD1BD5B8C900689A7E /* LaunchScreen.storyboard */,
 				CEAFCFE01BD5B8C900689A7E /* Info.plist */,
+				CEAFD0451BD6842000689A7E /* Images.xcassets */,
+				CEAFD04B1BD7403600689A7E /* RecordSummary.swift */,
+				CEAFD0501BD838C600689A7E /* Shared.swift */,
 			);
 			path = "Lightning Events";
 			sourceTree = "<group>";
@@ -212,12 +277,19 @@
 			isa = PBXGroup;
 			children = (
 				CEAFD00F1BD5B8CA00689A7E /* InterfaceController.swift */,
+				CEEBAD891BDA1CE1009F71C1 /* MessageHandler.swift */,
+				CEAFD0551BD84EE000689A7E /* MenuInterfaceController.swift */,
+				CEEBAD7E1BD8BC2A009F71C1 /* MenuRowView.swift */,
+				CEEBAD871BD93B61009F71C1 /* MenuTableRowController.swift */,
+				CEEBAD8B1BDA205B009F71C1 /* NotificationsInterfaceController.swift */,
+				CEAFD0601BD8611800689A7E /* WatchEventUtil.swift */,
 				CEAFD0111BD5B8CA00689A7E /* ExtensionDelegate.swift */,
 				CEAFD0131BD5B8CA00689A7E /* NotificationController.swift */,
 				CEAFD0151BD5B8CA00689A7E /* GlanceController.swift */,
 				CEAFD0171BD5B8CA00689A7E /* ComplicationController.swift */,
 				CEAFD0191BD5B8CA00689A7E /* Assets.xcassets */,
 				CEAFD01B1BD5B8CA00689A7E /* Info.plist */,
+				CEAFD05A1BD85E7D00689A7E /* Media.xcassets */,
 				CEAFD00D1BD5B8CA00689A7E /* Supporting Files */,
 			);
 			path = "Lightning Events WatchKit Extension";
@@ -329,6 +401,7 @@
 		CEAFCFC91BD5B8C900689A7E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Skip Sauls";
 				TargetAttributes = {
@@ -378,8 +451,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEAFD03F1BD5E78700689A7E /* blitztakt.js in Resources */,
+				CEAFD0461BD6842000689A7E /* Images.xcassets in Resources */,
 				CEAFCFDF1BD5B8C900689A7E /* LaunchScreen.storyboard in Resources */,
 				CEAFCFDC1BD5B8C900689A7E /* Assets.xcassets in Resources */,
+				CEAFD05B1BD85E7D00689A7E /* Media.xcassets in Resources */,
 				CEAFCFDA1BD5B8C900689A7E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -388,6 +464,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEAFD0401BD5E78700689A7E /* blitztakt.js in Resources */,
+				CEAFD05C1BD85E7D00689A7E /* Media.xcassets in Resources */,
+				CEAFD0471BD6842000689A7E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +474,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEAFD0411BD5E78700689A7E /* blitztakt.js in Resources */,
+				CEAFD05D1BD85E7D00689A7E /* Media.xcassets in Resources */,
+				CEAFD0481BD6842000689A7E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,8 +484,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEAFD05E1BD85E7D00689A7E /* Media.xcassets in Resources */,
 				CEAFD0021BD5B8CA00689A7E /* Assets.xcassets in Resources */,
-				CEAFD0001BD5B8CA00689A7E /* Interface.storyboard in Resources */,
+				CEAFD0491BD6842000689A7E /* Images.xcassets in Resources */,
+				CEEBAD841BD93552009F71C1 /* Interface.storyboard in Resources */,
+				CEAFD0421BD5E78700689A7E /* blitztakt.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +496,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEAFD04A1BD6842000689A7E /* Images.xcassets in Resources */,
+				CEAFD0431BD5E78700689A7E /* blitztakt.js in Resources */,
+				CEAFD05F1BD85E7D00689A7E /* Media.xcassets in Resources */,
 				CEAFD01A1BD5B8CA00689A7E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,7 +510,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEAFD0511BD838C600689A7E /* Shared.swift in Sources */,
+				CEAFD0301BD5BBD000689A7E /* SwiftyJSON.swift in Sources */,
+				CEAFD03A1BD5BC7A00689A7E /* SObjectUtils.swift in Sources */,
+				CEAFD0351BD5BC3900689A7E /* LtngEvent.swift in Sources */,
+				CEAFD04C1BD7403600689A7E /* RecordSummary.swift in Sources */,
 				CEAFCFD71BD5B8C900689A7E /* ViewController.swift in Sources */,
+				CEAFD0621BD88AF400689A7E /* WatchEventUtil.swift in Sources */,
 				CEAFCFD51BD5B8C900689A7E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,7 +525,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEAFD0521BD838C600689A7E /* Shared.swift in Sources */,
+				CEAFD04D1BD7403600689A7E /* RecordSummary.swift in Sources */,
+				CEAFD03B1BD5BC7A00689A7E /* SObjectUtils.swift in Sources */,
 				CEAFCFEA1BD5B8CA00689A7E /* Lightning_EventsTests.swift in Sources */,
+				CEAFD0311BD5BBD000689A7E /* SwiftyJSON.swift in Sources */,
+				CEAFD0361BD5BC3900689A7E /* LtngEvent.swift in Sources */,
+				CEAFD0631BD88AF500689A7E /* WatchEventUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,7 +539,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEAFD0531BD838C600689A7E /* Shared.swift in Sources */,
+				CEAFD04E1BD7403600689A7E /* RecordSummary.swift in Sources */,
+				CEAFD03C1BD5BC7A00689A7E /* SObjectUtils.swift in Sources */,
 				CEAFCFF51BD5B8CA00689A7E /* Lightning_EventsUITests.swift in Sources */,
+				CEAFD0321BD5BBD000689A7E /* SwiftyJSON.swift in Sources */,
+				CEAFD0371BD5BC3900689A7E /* LtngEvent.swift in Sources */,
+				CEAFD0641BD88AF500689A7E /* WatchEventUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,11 +553,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEEBAD8C1BDA205B009F71C1 /* NotificationsInterfaceController.swift in Sources */,
+				CEAFD0541BD838C600689A7E /* Shared.swift in Sources */,
+				CEAFD03D1BD5BC7A00689A7E /* SObjectUtils.swift in Sources */,
+				CEAFD0591BD84EE000689A7E /* MenuInterfaceController.swift in Sources */,
 				CEAFD0141BD5B8CA00689A7E /* NotificationController.swift in Sources */,
 				CEAFD0121BD5B8CA00689A7E /* ExtensionDelegate.swift in Sources */,
+				CEAFD04F1BD7403600689A7E /* RecordSummary.swift in Sources */,
+				CEAFD0611BD8611800689A7E /* WatchEventUtil.swift in Sources */,
+				CEEBAD8A1BDA1CE1009F71C1 /* MessageHandler.swift in Sources */,
 				CEAFD0181BD5B8CA00689A7E /* ComplicationController.swift in Sources */,
+				CEAFD0331BD5BBD000689A7E /* SwiftyJSON.swift in Sources */,
 				CEAFD0101BD5B8CA00689A7E /* InterfaceController.swift in Sources */,
+				CEEBAD881BD93B61009F71C1 /* MenuTableRowController.swift in Sources */,
+				CEAFD0381BD5BC3900689A7E /* LtngEvent.swift in Sources */,
 				CEAFD0161BD5B8CA00689A7E /* GlanceController.swift in Sources */,
+				CEEBAD861BD936E7009F71C1 /* MenuRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -625,13 +742,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = Lightning_Events_WatchKit_Extension;
 				INFOPLIST_FILE = "Lightning Events WatchKit App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "blitztakt.Lightning-Events.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
@@ -641,9 +761,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = Lightning_Events_WatchKit_Extension;
 				INFOPLIST_FILE = "Lightning Events WatchKit App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "blitztakt.Lightning-Events.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
@@ -657,6 +779,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "Lightning Events/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "blitztakt.Lightning-Events";
@@ -668,6 +791,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "Lightning Events/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "blitztakt.Lightning-Events";
@@ -742,6 +866,7 @@
 				CEAFD0201BD5B8CA00689A7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEAFD0221BD5B8CA00689A7E /* Build configuration list for PBXNativeTarget "Lightning Events WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -750,6 +875,7 @@
 				CEAFD0241BD5B8CA00689A7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEAFD0261BD5B8CA00689A7E /* Build configuration list for PBXNativeTarget "Lightning Events" */ = {
 			isa = XCConfigurationList;
@@ -758,6 +884,7 @@
 				CEAFD0281BD5B8CA00689A7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEAFD0291BD5B8CA00689A7E /* Build configuration list for PBXNativeTarget "Lightning EventsTests" */ = {
 			isa = XCConfigurationList;
@@ -766,6 +893,7 @@
 				CEAFD02B1BD5B8CA00689A7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEAFD02C1BD5B8CA00689A7E /* Build configuration list for PBXNativeTarget "Lightning EventsUITests" */ = {
 			isa = XCConfigurationList;
@@ -774,6 +902,7 @@
 				CEAFD02E1BD5B8CA00689A7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

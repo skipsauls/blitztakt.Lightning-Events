@@ -31,5 +31,9 @@
 	<string>blitztakt.Lightning-Events</string>
 	<key>WKWatchKitApp</key>
 	<true/>
+	<key>NSUserActivityTypes</key>
+	<array>
+		<string>blitztakt.Lightning-Events.handoff</string>
+	</array>
 </dict>
 </plist>

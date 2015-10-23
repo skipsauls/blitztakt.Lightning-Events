@@ -1,21 +1,110 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6724" systemVersion="14A389" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3735"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="8092"/>
     </dependencies>
     <scenes>
-        <!--Interface Controller-->
+        <!--Menu-->
+        <scene sceneID="JOy-ot-HuA">
+            <objects>
+                <controller identifier="Menu" title="Menu" hidesWhenLoading="NO" id="TPb-XT-FzR" customClass="MenuInterfaceController" customModule="Lightning_Events_WatchKit_Extension">
+                    <items>
+                        <table alignment="left" id="ylV-AC-Pj0">
+                            <items>
+                                <tableRow identifier="MenuTableRowController" id="sQo-DJ-pDf" userLabel="Menu Table Controller" customClass="MenuTableRowController" customModule="Lightning_Events_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="34.5" alignment="left" id="yjh-zW-YQ9">
+                                        <items>
+                                            <label width="94" height="16" alignment="center" verticalAlignment="center" text="Label" id="cAQ-hd-9pw">
+                                                <fontDescription key="font" type="system" weight="thin" pointSize="11"/>
+                                            </label>
+                                            <imageView width="32" height="32" alignment="left" id="vPr-tl-wIL"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="image" destination="vPr-tl-wIL" id="BUw-vp-Yjg"/>
+                                        <outlet property="label" destination="cAQ-hd-9pw" id="xDD-s2-ZDg"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="menuTable" destination="ylV-AC-Pj0" id="vkb-Mt-M0g"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="452" y="438"/>
+        </scene>
+        <!--Main-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller identifier="Main" title="Main" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Lightning_Events_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <picker width="1" height="100" alignment="left" id="kXL-j6-bGg">
+                            <connections>
+                                <action selector="selectItem:" destination="AgC-eL-Hgc" id="mfv-AW-s1K"/>
+                            </connections>
+                        </picker>
+                    </items>
+                    <connections>
+                        <outlet property="picker" destination="kXL-j6-bGg" id="FG8-Cs-YZ1"/>
+                        <segue destination="TPb-XT-FzR" kind="relationship" relationship="nextPage" id="lZt-LZ-hGv"/>
+                    </connections>
+                </controller>
             </objects>
-            <point key="canvasLocation" x="235" y="347"/>
+            <point key="canvasLocation" x="177" y="229"/>
+        </scene>
+        <!--Notifications-->
+        <scene sceneID="vfv-0B-peD">
+            <objects>
+                <controller identifier="Notifications" title="Notifications" hidesWhenLoading="NO" id="rHs-re-LpW" customClass="NotificationsInterfaceController" customModule="Lightning_Events_WatchKit_Extension">
+                    <items>
+                        <group width="1" alignment="left" id="fh0-XD-YvP">
+                            <items>
+                                <imageView width="32" height="32" alignment="left" image="Feed" id="8nz-lW-e0Q"/>
+                                <group width="100" height="108" alignment="left" layout="vertical" id="UuB-t1-RXZ">
+                                    <items>
+                                        <label width="136" height="50" alignment="left" text="Title" textAlignment="left" numberOfLines="2" id="her-yU-CyG">
+                                            <fontDescription key="font" type="boldSystem" pointSize="13"/>
+                                        </label>
+                                        <label width="136" height="50" alignment="left" text="Message" textAlignment="left" numberOfLines="2" id="Qvq-bh-0yf">
+                                            <fontDescription key="font" type="system" pointSize="13"/>
+                                        </label>
+                                    </items>
+                                    <edgeInsets key="margins" left="5" right="0.0" top="0.0" bottom="0.0"/>
+                                </group>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" verticalAlignment="bottom" id="SE1-ZR-2yq">
+                            <items>
+                                <button width="67" alignment="center" verticalAlignment="center" title="View" id="eD4-5N-mOc">
+                                    <connections>
+                                        <action selector="viewPushed" destination="rHs-re-LpW" id="nbW-In-jcq"/>
+                                    </connections>
+                                </button>
+                                <button width="67" alignment="center" verticalAlignment="center" title="Dismiss" id="kEe-Nb-gRx">
+                                    <connections>
+                                        <action selector="dismissPushed" destination="rHs-re-LpW" id="JcC-C6-1bp"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="dismissButton" destination="kEe-Nb-gRx" id="2Y3-dd-1b9"/>
+                        <outlet property="messageBody" destination="Qvq-bh-0yf" id="PnH-mQ-N5K"/>
+                        <outlet property="messageTitle" destination="her-yU-CyG" id="q2I-bV-2sa"/>
+                        <outlet property="viewButton" destination="eD4-5N-mOc" id="cr1-p3-Xrf"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="595" y="258"/>
         </scene>
         <!--Glance Interface Controller-->
         <scene sceneID="BOz-TT-tkC">
             <objects>
-                <glanceController spacing="0.0" id="0uZ-2p-rRc" customClass="GlanceController" customModuleProvider="target">
+                <glanceController spacing="0.0" id="0uZ-2p-rRc" customClass="GlanceController" customModule="Lightning_Events_WatchKit_App" customModuleProvider="target">
                     <items>
                         <group alignment="left" id="t8f-Gd-c4y"/>
                         <group alignment="left" id="uCw-4Q-Ouw"/>
@@ -44,7 +133,7 @@
         <!--Notification Controller-->
         <scene sceneID="KIl-fV-djm">
             <objects>
-                <controller id="gdX-wl-uQE" customClass="NotificationController" customModuleProvider="target"/>
+                <controller id="gdX-wl-uQE" customClass="NotificationController" customModule="Lightning_Events_WatchKit_App" customModuleProvider="target"/>
             </objects>
             <point key="canvasLocation" x="553" y="1001"/>
         </scene>

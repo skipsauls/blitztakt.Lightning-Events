@@ -46,5 +46,9 @@
 	<string>$(PRODUCT_MODULE_NAME).InterfaceController</string>
 	<key>WKExtensionDelegateClassName</key>
 	<string>$(PRODUCT_MODULE_NAME).ExtensionDelegate</string>
+	<key>NSUserActivityTypes</key>
+	<array>
+		<string>blitztakt.Lightning-Events.handoff</string>
+	</array>
 </dict>
 </plist>
